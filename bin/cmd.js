@@ -7,6 +7,6 @@ var input = file && file !== '-'
         ? fs.createReadStream(process.argv[2])
         : process.stdin
     ;
-input.pipe(concat(function(buf) {
-    console.log(derequire(buf.toString('utf8')));
+input.pipe(concat(function (buf) {
+    console.log(bookmarkletter(buf.toString('utf8')));
 }));
