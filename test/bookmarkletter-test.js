@@ -7,6 +7,8 @@ var assert = require("power-assert");
 var bookmarkletter = require("../").bookmarkletter;
 describe("bookmarkletter-test", function () {
     it("should be mangled", function () {
-        console.log(bookmarkletter("var a = 1;"));
+        var code = "var a = 1;";
+        var result = bookmarkletter(code);
+        assert.equal(result, "javascript:(function(){var%20a=1}())");
     });
 });

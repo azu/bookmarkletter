@@ -5,6 +5,6 @@
 "use strict";
 module.exports = {
     bookmarkletter: require("./lib/bookmarkletter"),
-    escapeCode: require("./lib/escape-for-bookmarklet")
-
+    escapeCode: require("./lib/escape-for-bookmarklet"),
+    wrapAnonymousFunction: require("./lib/wrap-anonymous-ast")
 };
