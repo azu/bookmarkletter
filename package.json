@@ -1,0 +1,38 @@
+{
+  "name": "bookmarkletter",
+  "description": "Create bookmarklet from your js or input",
+  "version": "0.0.1",
+  "bin": {
+    "bookmarkletter": "./bin/cmd.js"
+  },
+  "homepage": "https://github.com/azu/bookmarkletter/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/bookmarkletter.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "directories": {
+    "test": "test/"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/bookmarkletter/issues"
+  },
+  "dependencies": {
+    "ast-types": "^0.4.9",
+    "concat-stream": "^1.4.6",
+    "escodegen": "^1.4.1",
+    "esmangle": "^1.0.1",
+    "esprima": "^1.2.2"
+  },
+  "devDependencies": {
+    "espower-loader": "^0.9.0",
+    "intelli-espower-loader": "^0.4.0",
+    "mocha": "^1.21.4",
+    "power-assert": "^0.9.0"
+  }
+}
