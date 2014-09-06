@@ -1,7 +1,7 @@
 {
   "name": "bookmarkletter",
   "description": "Create bookmarklet from your js or input",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "bin": {
     "bookmarkletter": "./bin/cmd.js"
   },
