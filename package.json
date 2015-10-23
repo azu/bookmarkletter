@@ -31,7 +31,6 @@
     "lodash.merge": "^3.3.2"
   },
   "devDependencies": {
-    "espower-loader": "^1.0.0",
     "intelli-espower-loader": "^1.0.0",
     "mocha": "^2.3.3",
     "power-assert": "^1.1.0"
