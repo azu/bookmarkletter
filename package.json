@@ -23,17 +23,17 @@
     "url": "https://github.com/azu/bookmarkletter/issues"
   },
   "dependencies": {
-    "ast-types": "^0.4.9",
+    "ast-types": "^0.8.13",
     "concat-stream": "^1.4.6",
     "escodegen": "^1.4.1",
     "esmangle": "^1.0.1",
-    "esprima": "^1.2.2",
-    "lodash.merge": "^2.4.1"
+    "esprima": "^2.7.0",
+    "lodash.merge": "^3.3.2"
   },
   "devDependencies": {
-    "espower-loader": "^0.9.0",
-    "intelli-espower-loader": "^0.4.0",
-    "mocha": "^1.21.4",
-    "power-assert": "^0.9.0"
+    "espower-loader": "^1.0.0",
+    "intelli-espower-loader": "^1.0.0",
+    "mocha": "^2.3.3",
+    "power-assert": "^1.1.0"
   }
 }
