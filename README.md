@@ -29,7 +29,7 @@ npm install bookmarkletter
 ### Use as module
 
 ```js
-var bookmarkletter = require("bookmarkletter");
+var bookmarkletter = require("bookmarkletter").bookmarkletter;
 var code = "var a = 1;";
 var result = bookmarkletter(code);
 assert.equal(result, "javascript:(function(){var%20a=1}())");
